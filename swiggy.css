@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: "ProximaNova";
-    src: url("./Fonts/Fontspring-DEMO-proximanova-medium.otf");
+    src: url("./fonts/Fontspring-DEMO-proximanova-medium.otf");
 }
 .container{
    background-color: white;
