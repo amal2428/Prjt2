@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("./Fonts/Fontspring-DEMO-proximanova-medium.otf");
+}
+.container{
+   background-color: white;
+   height: 550px;
+   display: flex;
+   flex-direction: row;
+
+}
+/* Main Section */
+ .mainsec{
+    background-color: white;
+    flex: 1;
+}
+.mainsec img{
+    width: 400px;
+    height: 160px;
+    padding-left: 120px;
+    padding-top: 10px;
+}
+/* Image Section */
+.imgsec{
+    width: 700px;
+}
+.imgsec img{
+    width: 100%;
+    height: 550px;
+}
+/* Input Section */
+input{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 500px;
+    height: 60px;
+    opacity: 0.6;
+}
+input:focus{
+    outline-color: #fc8019;
+}
+.locimg img {
+    position: absolute;
+    top: 315px;
+    left: 415px;
+    width: 135px;
+    height: 25px;
+}
+label{
+    position: absolute;
+    top: 320px;
+    left: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    opacity: 0.8;
+    cursor: text;
+}
+/* Mid Heading Section */
+.head1{
+    position: relative;
+    left: 150px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #282c3f;
+    font-family: 'ProximaNova';
+}
+.head2{
+    position: relative;
+    top: 25px;
+    left: 150px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #686b78;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    font-family: 'ProximaNova';
+}
+.head3{
+    position:absolute;
+    top:400px;
+    left:150px;
+    font-weight:600 ;
+    font-size: 14px;
+    color: #686b78;
+    opacity: 0.6;
+    font-family: 'ProximaNova';
+}
+/* Link Section */
+nav{
+    position:absolute;
+    top:440px;
+    left:150px;
+    font-weight:500 ; 
+    font-size: 14px;
+    font-family:sans-serif;
+
+}
+.n1{
+    color: #282c3f;
+    opacity: 0.7;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+.n2{
+    color: #282c3f;
+    opacity: 0.6;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Button Section */
+.btn1{
+    position: absolute;
+    top: 75px;
+    left: 600px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+    cursor: pointer;
+    font-family: 'ProximaNova';
+    letter-spacing: 1px;
+}
+.btn1:hover{
+    border: none;
+    background: none;
+    color: rgb(242, 140, 23);
+    cursor: pointer;
+}
+.btn2{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 65px;
+    left: 670px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'ProximaNova';
+}
+.btn3{
+    position: absolute;
+    top: 300px;
+    left: 649px;
+    padding: 0;
+    width: 125px;
+    height: 60px;
+    border: none;
+    background-color: #fc8019;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn4{
+    position: absolute;
+    top: 325px;
+    left: 560px;
+    border: none;
+    background: none;
+    font-weight: 400;
+    color: #686b78;
+    font-family:  sans-serif;
+    cursor: pointer;
+}
+/* Second Main Section */
+.secndsection{
+    height: 400px;
+    background-color:#2b1e16 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secndsection img{
+    width: 110px;
+    height: 200px;
+}
+.phead{
+  color: white;
+  font-size: large;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.phead1,.phead2,.phead3{
+    position: absolute;
+    top: 790px;
+}
+.phead1{
+    left: 250px;
+}
+.phead2{
+    left: 670px;
+}
+.phead3{
+    left: 1060px;
+}
+.para{
+    color: rgb(236, 221, 221);
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para1,.para2,.para3{
+    position: absolute;
+    top: 830px;
+}
+.para1{
+    left: 220px;
+}
+.para2{
+    left: 640px;
+}
+.para3{
+    left: 1050px;
+}
+.thrdsection{
+    height: 550px;
+    background-color: white;
+}
+.thrdsection img{
+    height: 500px;
+    width: 400px;
+}
+/* Phone img */
+#img1{
+    position: relative;
+    left: 650px;
+}
+#img2{
+    position: relative;
+    top: 50px;
+    left: 620px;
+}
+#res{
+    position: absolute;
+    top: 1100px;
+    left: 150px;
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-size: 35px;
+    opacity: 0.8;
+}
+#rpara{
+    position: absolute;
+    top: 1200px;
+    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#282c3f;
+    opacity: 0.6;
+}
+#icon1{
+    height: 50px;
+    width: 160px;
+    position: absolute;
+    left: 160px;
+    top: 1280px;
+    cursor: pointer;
+}
+#icon2{
+    height: 50px;
+    width: 160px;
+    position: absolute;
+    left: 350px;
+    top: 1280px;
+    cursor: pointer;
+}
+/* Final Section */
+.finalsec{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #000;
+    font-family:   sans-serif;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+.fp{
+    line-height: 30px;
+}
+.hdft{
+    color: grey;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.final{
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+}
+#icon3,#icon4{
+    position: absolute;
+    left: 1200px;
+    height: 65px;
+    width: 190px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#icon3{
+    top: 1700px;
+}
+#icon4{
+    top: 1600px;
+}
+hr{
+    position: relative;
+    top: 10px;
+    left: 180px;
+    width: 1150px;
+    opacity: 0.4;
+}
+footer{
+    height: 100px;
+    background-color: #000;
+}
+#ftlogo{
+    position: relative;
+    top: 25px;
+    left: 180px;
+    width: 150px;
+    height: 40px;
+}
+.fticon{
+    position: absolute;
+    top: 1990px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.ftr img{
+    transition: transform 2s;
+
+}
+.ftr img :hover{
+    transform: scale(1.1);
+}
+ #ft1{
+    left: 1100px;
+}
+#ft2{
+    left: 1165px;
+}
+#ft3{
+    left: 1235px;
+}
+#ft4{
+    left: 1300px;
+} 
+#ftrpara{
+    position: absolute;
+    top: 1990px;
+    left: 650px;
+    font-family: 'ProximaNova';
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
